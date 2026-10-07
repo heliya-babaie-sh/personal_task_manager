@@ -1,5 +1,8 @@
+from task import  show_task, add_task
+
 name = input("please enter your name : ")
-print("welcome", name)
+print("welcome", name) 
+
 tasks = []
 while True:
 
@@ -7,6 +10,8 @@ while True:
     if task == "exit":
         break
     else:
-        tasks.append(task)
+        add_task(task)
         continue
+
+show_task()
         
