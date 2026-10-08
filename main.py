@@ -25,7 +25,9 @@ while True:
     if task == "exit":
         break
     else:
-        add_task(task)
+        priority = input("Enter  priority (low/medium/high):")
+
+        add_task(task, priority)
         continue
 
 show_task()
