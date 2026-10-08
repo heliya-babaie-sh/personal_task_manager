@@ -26,7 +26,7 @@ while True:
         break
     else:
         priority = input("Enter  priority (low/medium/high):")
-
+        
         add_task(task, priority)
         continue
 
