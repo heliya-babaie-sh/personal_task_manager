@@ -111,6 +111,7 @@ python main.py
 4. If you choose `yes` enter a password from your `.env` file
 5. Enter your name
 6. Enter a task
+7. Enter a priority
 7. See all your saved tasks
 8. Enter another task or exit
 8. Your result is saved in `tasks.txt`
@@ -126,18 +127,21 @@ welcome sara
 
 enter a task or enter exit: check my test
 
-your task  ['check my test'] added
+Enter  priority (low/medium/high):low 
+
+your task  ['check my test, low'] added
 '
 enter a task or enter exit: exit
 
-check my test
+your tasks: 
+send my homework , low
 ```
 
 ## Screen shot
 ### Start program
-![start program](picture\pic1.png)
+![start program](pictures\pic1.png)
 ### Task
-![Task](picture\pic2.png)
+![Task](pictures\pic2.png)
 
 
 ### End of the program
